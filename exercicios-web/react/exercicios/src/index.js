@@ -1,10 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import Saudacao from './componentes/Saudacao'
+import Pai from './componentes/Pai'
 
 ReactDOM.render(
     <div>
-        <Saudacao tipo="Bom Dia" nome="João" />
+        <Pai nome="Paulo" sobrenome="Silva">
+            {/* Como passo os componentes Filhos aqui? */}
+        </Pai>
     </div>
 , document.getElementById('root'))
